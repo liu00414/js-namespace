@@ -19,9 +19,10 @@ var LIU00414 = {
             function color() {
                 return Math.ceil(Math.random() * 255);
             }
-            let randomColor = 'rgb(' + color() + ',' + color() + ',' + color() + ')';
-            ev.currentTarget.style.borderColor = randomColor;
-            ev.currentTarget.style.backgroundColor = randomColor;
+            let randomColor1 = 'rgb(' + color() + ',' + color() + ',' + color() + ')';
+            let randomColor2 = 'rgb(' + color() + ',' + color() + ',' + color() + ')';
+            ev.currentTarget.style.borderColor = randomColor1;
+            ev.currentTarget.style.backgroundColor = randomColor2;
             console.log('randomColor');
         }
     }
