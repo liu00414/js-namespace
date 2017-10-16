@@ -23,6 +23,7 @@ var LIU00414 = {
             let randomColor2 = 'rgb(' + color() + ',' + color() + ',' + color() + ')';
             ev.currentTarget.style.borderColor = randomColor1;
             ev.currentTarget.style.backgroundColor = randomColor2;
+            ev.currentTarget.style.cursor='pointer';
             console.log('randomColor');
         }
     }
