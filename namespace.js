@@ -12,7 +12,7 @@ var LIU00414 = {
 
         function togglehighlight(ev) {
             ev.currentTarget.classList.toggle('highlight');
-
+            ev.currentTarget.style=null;
         }
 
         function changecolor(ev) {
