@@ -1,0 +1,2 @@
+# js-namespace
+assignment
